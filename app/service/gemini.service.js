@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 
 const GeminiService = (function () {
   const MODEL_NAME = 'gemini-pro';
-  const API_KEY = 'AIzaSyClUfKgEEueQcF-dtQi4zfTM38A0YaG-nc';
+  const API_KEY = 'your gemini api key';
   const genAI = new GoogleGenerativeAI(API_KEY);
   const service = {};
 
